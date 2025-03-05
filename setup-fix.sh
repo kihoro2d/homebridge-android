@@ -1,6 +1,3 @@
-echo '== Updating repositories and upgrading packages ==' &&
-pkg update -y &&
-pkg upgrade -y &&
 echo '== Installing proot ==' &&
 pkg install -y proot &&
 echo '== Creating dummy stat file ==' &&
